@@ -1,34 +1,45 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f4f4f4;
-  color: #222;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
 }
 
 header {
   background: #222;
   color: white;
+  padding: 20px;
   text-align: center;
-  padding: 2em 1em;
 }
 
 nav a {
-  color: #00ffff;
-  margin: 0 15px;
+  color: #fff;
+  margin: 0 10px;
   text-decoration: none;
 }
 
 main {
-  padding: 2em;
+  padding: 20px;
 }
 
-section {
-  margin-bottom: 2em;
+.download-btn {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-btn:hover {
+  background-color: #0056b3;
 }
 
 footer {
   text-align: center;
-  padding: 1em;
-  background: #222;
-  color: white;
+  padding: 10px;
+  background: #eee;
 }
